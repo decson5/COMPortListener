@@ -1,0 +1,15 @@
+﻿<Window x:Class="COM_test1_kurs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COM_test1_kurs"
+        mc:Ignorable="d" Loaded="Window_Loaded" Closing="Windows_Closing"
+        Title="MainWindow" Height="351.073" Width="480.588">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label x:Name="lblPortData1" FontSize="48" HorizontalAlignment="Center" Margin="0,20,0,0" Content="Вхідні дані:"/>
+            <Label x:Name="lblPortData" FontSize="48" HorizontalAlignment="Center" Margin="0,20,0,0" Content="Очікую дані"/>
+        </StackPanel>
+    </Grid>
+</Window>
